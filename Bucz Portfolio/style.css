@@ -6,7 +6,6 @@
 
 .header {
     width: 100%;
-    
     min-height: 90vh;
     background-color: #f4f1e8;
     display: flex;
@@ -48,7 +47,6 @@
 
 .about-me-page {
     width: 100%;
-    
     min-height: 90vh;
     background-color: #fcf5ef;
     display: flex;
@@ -342,4 +340,74 @@
 #email-address {
     font-family: "Radley", serif;
     letter-spacing: 0.1rem;
+}
+
+/*Interactive Section*/
+
+@media (max-width: 518px) {
+
+    /*HEADER*/
+    #logo img {
+        width: 60px;
+    }
+    #header-page {
+        font-size: 30px;
+    }
+    #header-p-page {
+        font-size: 12px;
+    }
+
+    /*ABOUT ME*/
+    #about-me h2 {
+        font-size: 30px;
+    }
+    
+    #about-me p {
+        font-size: 15px;
+        
+    }
+    
+    #profile {
+        display: none;
+    }
+    
+    #profile img {
+        display: none;
+    }
+
+    /*HOBBY*/
+    #my-hobbies h2 {
+        font-size: 30px;
+    }
+    .hobbies-container img {
+        width: 150px;
+    }
+    
+    .hobbies-container h4 {
+        font-size: 0.9rem;
+    }
+    
+    
+    .hobbies-container p {
+        font-size: 0.8rem;
+    }
+
+
+
+    /*FAV QUOTE*/
+
+    #my-fav-quote-h h2 {
+        font-size: 30px;
+    }
+    
+    
+    .fav-quotes-container h4 {
+        font-size: 0.9rem;
+    }
+    
+    
+    .fav-quotes-container p {
+        font-size: 0.7rem;
+    }
+
 }
