@@ -4,6 +4,8 @@
     box-sizing: border-box;
 }
 
+/*HEADER PAGE*/
+
 .header {
     width: 100%;
     min-height: 90vh;
@@ -12,9 +14,8 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    overflow: hidden;
 }
-
-/*HEADER PAGE*/
 
 #logo img {
     width: 40px;
@@ -179,7 +180,6 @@
 
 .my-fav-quote-page {
     width: 100%;
-    
     min-height: 90vh;
     background-color: #314028;
     color: white;
